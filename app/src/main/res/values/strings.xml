@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Binge</string>
+    <string name="movies_tab">Movies</string>
+    <string name="tv_tab">TV Shows</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Whatever...</string>
+    <string name="api_key">851e1e4c190266b9132583923c61128d</string>
+</resources>
