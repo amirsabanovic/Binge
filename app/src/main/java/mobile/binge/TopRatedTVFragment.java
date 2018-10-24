@@ -1,5 +1,6 @@
 package mobile.binge;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -8,6 +9,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import rx.Observer;
@@ -15,7 +17,7 @@ import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
-public class TopRatedTVFragment extends Fragment {
+public class TopRatedTVFragment extends Fragment implements AdapterView.OnItemClickListener {
 
     private final static String API_KEY = "851e1e4c190266b9132583923c61128d";
     private final static String LANGUAGE = "en-US";
@@ -48,6 +50,8 @@ public class TopRatedTVFragment extends Fragment {
         ListView listView = view.findViewById(R.id.top_rated_tv_list);
         listView.setAdapter(tvShowAdapter);
 
+        listView.setOnItemClickListener(this);
+
         getTopRatedTVShows();
     }
 
@@ -68,7 +72,7 @@ public class TopRatedTVFragment extends Fragment {
 
                     @Override
                     public void onNext(TVShowModelResults tvShows) {
-                        Log.d(TAG, "In onNext()");
+                        Log.d(TAG, "In onNextTV()");
                         tvShowAdapter.setTVShows(tvShows.getResults().subList(0, 10));
                     }
                 });
@@ -80,5 +84,12 @@ public class TopRatedTVFragment extends Fragment {
             subscription.unsubscribe();
         }
         super.onDestroy();
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        Intent intent = new Intent(this.getContext(), TVShowDetailsActivity.class);
+        intent.putExtra("DETAILS", (TVShowModel) parent.getItemAtPosition(position));
+        startActivity(intent);
     }
 }

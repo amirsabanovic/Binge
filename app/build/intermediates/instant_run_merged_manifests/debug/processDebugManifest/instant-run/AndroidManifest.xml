@@ -46,6 +46,8 @@
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
         </activity>
+        <activity android:name="mobile.binge.MovieDetailsActivity" />
+        <activity android:name="mobile.binge.TVShowDetailsActivity" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

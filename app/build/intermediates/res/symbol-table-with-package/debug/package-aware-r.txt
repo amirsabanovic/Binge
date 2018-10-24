@@ -1061,6 +1061,7 @@ id always
 id app_bar_layout
 id async
 id auto
+id backdrop
 id barrier
 id beginning
 id blocking
@@ -1146,6 +1147,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id outline
+id overview
 id packed
 id parallax
 id parent
@@ -1233,7 +1235,9 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tv_show_backdrop
 id tv_show_name
+id tv_show_overview
 id tv_show_poster
 id uniform
 id unlabeled
@@ -1293,7 +1297,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_home
+layout activity_movie_details
 layout activity_search_results
+layout activity_tvshow_details
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
