@@ -5,4 +5,7 @@
     <string name="search_title">Search</string>
     <string name="search_hint">Whatever...</string>
     <string name="api_key">851e1e4c190266b9132583923c61128d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
