@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-50:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Amir\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\3d77117b9c2e279a212da36803422eaf\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Amir\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\6a5c619f00c829aa904549077f943e2f\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Amir\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ae5672feb49829d784974664f6f4c95a\AndroidManifest.xml:2:1-11:12
@@ -40,20 +40,20 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Amir\.gradle\caches
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Amir\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\14a66b389936ea56a63930b959a5bfd8\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Amir\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b2f025da4151d11b4592dd92a85458f9\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Amir\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4a69c53e6487846eb1eeed2185ba103f\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:3:5-27
 		INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:2:11-69
@@ -66,7 +66,7 @@ ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifes
 	android:name
 		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:8:5-42:19
+ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:8:5-48:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\Amir\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\3d77117b9c2e279a212da36803422eaf\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Amir\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\3d77117b9c2e279a212da36803422eaf\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Amir\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ae5672feb49829d784974664f6f4c95a\AndroidManifest.xml:9:5-20
@@ -94,57 +94,41 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Amir\.gradle\c
 	android:theme
 		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:14:9-40
 activity#mobile.binge.HomeActivity
-ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:15:9-25:20
+ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:16:9-27:20
 	android:name
-		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:15:19-47
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:16:13-20:29
+		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:16:19-47
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.SEARCH+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:17:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
 		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:19:27-74
-meta-data#android.app.default_searchable
-ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:22:13-24:58
-	android:value
-		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:24:17-55
-	android:name
-		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:23:17-62
-activity#mobile.binge.SearchResultsActivity
-ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:26:9-39:20
-	android:label
-		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:28:13-45
-	android:theme
-		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:29:13-51
-	android:name
-		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:27:13-50
-intent-filter#action:name:android.intent.action.SEARCH+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.SEARCH
-ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:31:17-71
+ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:20:17-71
 	android:name
-		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:31:25-68
+		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:20:25-68
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:33:17-76
+ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:21:17-76
 	android:name
-		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:33:27-73
-meta-data#android.app.searchable
-ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:36:13-38:54
-	android:resource
-		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:38:17-51
+		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:21:27-73
+meta-data#android.app.default_searchable
+ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:24:13-26:58
+	android:value
+		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:26:17-55
 	android:name
-		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:37:17-54
+		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:25:17-62
 activity#mobile.binge.MovieDetailsActivity
-ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:40:9-58
+ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:44:9-58
 	android:name
-		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:40:19-55
+		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:44:19-55
 activity#mobile.binge.TVShowDetailsActivity
-ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:41:9-68
+ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:46:9-59
 	android:name
-		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:41:19-56
+		ADDED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml:46:19-56
 uses-sdk
 INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Amir\AndroidStudioProjects\Binge\app\src\main\AndroidManifest.xml

@@ -1,5 +1,6 @@
 package mobile.binge;
 
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -14,6 +15,17 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     public ViewPagerAdapter(FragmentManager manager) {
         super(manager);
+    }
+
+    @Override
+    public int getItemPosition(@NonNull Object object) {
+        if (object instanceof TopRatedMoviesFragment) {
+            return POSITION_NONE;
+        }
+        else if (object instanceof TopRatedTVFragment) {
+            return POSITION_NONE;
+        }
+        return POSITION_UNCHANGED;
     }
 
     @Override

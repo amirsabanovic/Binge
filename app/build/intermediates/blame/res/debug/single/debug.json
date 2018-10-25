@@ -1452,6 +1452,10 @@
         "source": "C:\\Users\\Amir\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6a5c619f00c829aa904549077f943e2f\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Amir\\AndroidStudioProjects\\Binge\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_tvshow_search_results.xml.flat",
+        "source": "C:\\Users\\Amir\\AndroidStudioProjects\\Binge\\app\\src\\main\\res\\layout\\fragment_tvshow_search_results.xml"
+    },
+    {
         "merged": "C:\\Users\\Amir\\AndroidStudioProjects\\Binge\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Amir\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6a5c619f00c829aa904549077f943e2f\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
@@ -1846,6 +1850,10 @@
     {
         "merged": "C:\\Users\\Amir\\AndroidStudioProjects\\Binge\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\Amir\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\44acf92c0d3cc035ed501a90f2e829ad\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Amir\\AndroidStudioProjects\\Binge\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_movie_search_results.xml.flat",
+        "source": "C:\\Users\\Amir\\AndroidStudioProjects\\Binge\\app\\src\\main\\res\\layout\\fragment_movie_search_results.xml"
     },
     {
         "merged": "C:\\Users\\Amir\\AndroidStudioProjects\\Binge\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",

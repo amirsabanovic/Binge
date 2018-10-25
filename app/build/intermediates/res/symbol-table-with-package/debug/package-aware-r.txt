@@ -608,6 +608,7 @@ color cardview_shadow_start_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color colorWhite
 color design_bottom_navigation_shadow_color
 color design_default_color_primary
 color design_default_color_primary_dark
@@ -1135,6 +1136,8 @@ id message
 id middle
 id mini
 id movie_poster
+id movie_search_results_layout
+id movie_search_results_list
 id movie_title
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
@@ -1225,10 +1228,10 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
-id topRatedMoviesConstraintLayout
-id topRatedTVShowsConstraintLayout
+id top_rated_movies_layout
 id top_rated_movies_list
 id top_rated_tv_list
+id top_rated_tv_shows_layout
 id touch_outside
 id transition_current_scene
 id transition_layout_save
@@ -1239,6 +1242,8 @@ id tv_show_backdrop
 id tv_show_name
 id tv_show_overview
 id tv_show_poster
+id tv_show_search_results_layout
+id tv_show_search_results_list
 id uniform
 id unlabeled
 id up
@@ -1314,8 +1319,10 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_movie_search_results
 layout fragment_top_rated_movies
 layout fragment_top_rated_tv
+layout fragment_tvshow_search_results
 layout item_movie
 layout item_tv_show
 layout mtrl_layout_snackbar
