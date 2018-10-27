@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="mobile.binge.HomeActivity"
     xmlns:app="http://schemas.android.com/apk/res-auto" >
+
     <item android:id="@+id/search"
         android:title="@string/search_title"
         android:icon="@drawable/ic_search"

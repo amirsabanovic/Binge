@@ -26,9 +26,9 @@ public class TVShowDetailsActivity extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        TextView name = (TextView) findViewById(R.id.tv_show_name);
-        ImageView backdrop = (ImageView) findViewById(R.id.tv_show_backdrop);
-        TextView overview = (TextView) findViewById(R.id.tv_show_overview);
+        TextView name = findViewById(R.id.tv_show_name);
+        ImageView backdrop = findViewById(R.id.tv_show_backdrop);
+        TextView overview = findViewById(R.id.tv_show_overview);
 
         TVShowModel tvShowModel = (TVShowModel) Objects.requireNonNull(getIntent().getExtras()).getSerializable("DETAILS");
 

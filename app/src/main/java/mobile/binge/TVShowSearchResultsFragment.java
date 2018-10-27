@@ -1,8 +1,6 @@
 package mobile.binge;
 
-import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -30,15 +28,19 @@ public class TVShowSearchResultsFragment extends Fragment implements AdapterView
     private Subscription subscription;
 
     private static final String TAG = TVShowSearchResultsFragment.class.getSimpleName();
-    //private OnFragmentInteractionListener mListener;
 
     public TVShowSearchResultsFragment() {
         // Required empty public constructor
     }
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public static TVShowSearchResultsFragment newInstance(@NonNull String query) {
+        TVShowSearchResultsFragment myFragment = new TVShowSearchResultsFragment();
+
+        Bundle args = new Bundle();
+        args.putString("QUERY", query);
+        myFragment.setArguments(args);
+
+        return myFragment;
     }
 
     @Override

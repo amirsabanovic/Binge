@@ -32,9 +32,8 @@ public class TopRatedTVFragment extends Fragment implements AdapterView.OnItemCl
         // Required empty public constructor
     }
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public static TopRatedTVFragment newInstance() {
+        return new TopRatedTVFragment();
     }
 
     @Override

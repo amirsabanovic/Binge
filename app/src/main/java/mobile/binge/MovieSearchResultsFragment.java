@@ -1,8 +1,6 @@
 package mobile.binge;
 
-import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -31,11 +29,19 @@ public class MovieSearchResultsFragment extends Fragment implements AdapterView.
     private Subscription subscription;
 
     private static final String TAG = MovieSearchResultsFragment.class.getSimpleName();
-    //private OnFragmentInteractionListener mListener;
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public MovieSearchResultsFragment() {
+        // Required empty public constructor
+    }
+
+    public static MovieSearchResultsFragment newInstance(@NonNull String query) {
+        MovieSearchResultsFragment myFragment = new MovieSearchResultsFragment();
+
+        Bundle args = new Bundle();
+        args.putString("QUERY", query);
+        myFragment.setArguments(args);
+
+        return myFragment;
     }
 
     @Override

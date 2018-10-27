@@ -6,10 +6,6 @@ import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import org.json.JSONObject;
-
-import java.util.List;
-
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -18,9 +14,6 @@ import rx.Observable;
 public class FetchingClient {
 
     private static final String BASE_URL = "https://api.themoviedb.org/3/";
-    private static final String API_KEY = "851e1e4c190266b9132583923c61128d";
-    private static final String LANGUAGE = "en-US";
-    private static final String PAGE = "1";
 
     private static FetchingClient instance;
     private FetchingService fetchingService;

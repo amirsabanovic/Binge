@@ -3,9 +3,13 @@
     <string name="movies_tab">Movies</string>
     <string name="tv_tab">TV Shows</string>
     <string name="search_title">Search</string>
-    <string name="search_hint">Whatever...</string>
+    <string name="search_hint">Whatever…</string>
     <string name="api_key">851e1e4c190266b9132583923c61128d</string>
+    <string name="movie_poster">Movie poster image</string>
+    <string name="tv_show_poster">TV Show poster image</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_show_name_placeholder">[TV show name placeholder]</string>
+    <string name="movie_title_placeholder">[Movie title placeholder]</string>
 </resources>

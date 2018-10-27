@@ -1,11 +1,6 @@
 package mobile.binge;
 
-import org.json.JSONObject;
-
-import java.util.List;
-
 import retrofit2.http.GET;
-import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 import rx.Observable;

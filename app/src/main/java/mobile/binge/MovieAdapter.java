@@ -70,14 +70,13 @@ public class MovieAdapter extends BaseAdapter {
         private TextView movieTitle;
         private ImageView moviePosterPath;
 
-        public MovieViewHolder(View view) {
-            movieTitle = view.findViewById(R.id.movie_title);
-            moviePosterPath = view.findViewById(R.id.movie_poster);
+        MovieViewHolder(View view) {
+            this.movieTitle = view.findViewById(R.id.movie_title);
+            this.moviePosterPath = view.findViewById(R.id.movie_poster);
         }
 
-        public void setMovie(MovieModel movie) {
+        void setMovie(MovieModel movie) {
             movieTitle.setText(movie.getTitle());
-            //moviePosterPath.setImage((URI) BASE_IMAGE_URL + movie.getPoster_path());
         }
     }
 }

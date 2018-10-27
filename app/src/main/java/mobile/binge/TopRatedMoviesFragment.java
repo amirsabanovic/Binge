@@ -32,9 +32,8 @@ public class TopRatedMoviesFragment extends Fragment implements AdapterView.OnIt
         // Required empty public constructor
     }
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public static TopRatedMoviesFragment newInstance() {
+        return new TopRatedMoviesFragment();
     }
 
     @Override

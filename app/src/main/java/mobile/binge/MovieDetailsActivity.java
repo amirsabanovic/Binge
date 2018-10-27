@@ -26,9 +26,9 @@ public class MovieDetailsActivity extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        TextView title = (TextView) findViewById(R.id.title);
-        ImageView backdrop = (ImageView) findViewById(R.id.backdrop);
-        TextView overview = (TextView) findViewById(R.id.overview);
+        TextView title = findViewById(R.id.title);
+        ImageView backdrop = findViewById(R.id.backdrop);
+        TextView overview = findViewById(R.id.overview);
 
         MovieModel movieModel = (MovieModel) Objects.requireNonNull(getIntent().getExtras()).getSerializable("DETAILS");
 
